@@ -633,6 +633,7 @@ declare namespace ElementReact {
     highlightCurrentRow?: boolean
     onCurrentChange?(): void
     onSelectAll?(): void
+    onSortChange?(): void
     onSelectChange?(): void
   }
   export class Table extends ElementReactLibs.Component<TableProps, {}> { }
